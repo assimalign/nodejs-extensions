@@ -1,0 +1,31 @@
+{
+  "name": "@assimalign/extensions-validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "compilerOptions": { 
+    "target": "es6", 
+    "module": "commonjs",
+    "strict": true, 
+    "declaration": true,
+    "outDir": "./dist"
+  },
+  "exclude": [
+      "tests",
+      "dist",
+      "node_modules"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
